@@ -4,8 +4,8 @@ cookiecutter-hypermodern-python
 
 .. badges-begin
 
-| |Status| |Python Version| |CalVer| |License|
-| |Read the Docs| |Tests| |Codecov|
+| |Status| |CalVer| |License|
+| |Read the Docs|
 | |pre-commit| |Black|
 
 .. |Status| image:: https://badgen.net/badge/status/alpha/d8624d
