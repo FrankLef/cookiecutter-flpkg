@@ -143,7 +143,7 @@ The template supports Python 3.6, 3.7, 3.8 and 3.9.
 .. _Jonas Kemper: https://dev.to/jonasrk/understanding-best-practice-python-tooling-by-comparing-popular-project-templates-2dnj
 .. _pipenv: https://realpython.com/pipenv-guide
 .. _pipx: https://github.com/pypa/pipx
-.. _full documentation: https://cookiecutter-flpkg.readthedocs.io/latest
+.. _full documentation: https://cookiecutter-flpkg.readthedocs.io
 
 .. _Poetry: https://python-poetry.org
 .. _Poetry install: https://python-poetry.org/docs
