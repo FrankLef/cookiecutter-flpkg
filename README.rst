@@ -11,24 +11,15 @@ cookiecutter-hypermodern-python
 .. |Status| image:: https://badgen.net/badge/status/alpha/d8624d
    :target: https://badgen.net/badge/status/alpha/d8624d
    :alt: Project Status
-.. |Python Version| image:: https://img.shields.io/pypi/pyversions/cookiecutter-hypermodern-python-instance
-   :target: https://github.com/cjolowicz/cookiecutter-hypermodern-python
-   :alt: Python Version
 .. |CalVer| image:: https://img.shields.io/badge/calver-YYYY.MM.DD-22bfda.svg
    :target: http://calver.org/
    :alt: CalVer
-.. |License| image:: https://img.shields.io/github/license/cjolowicz/cookiecutter-hypermodern-python
+.. |License| image:: https://img.shields.io/github/license/FrankLef/cookiecutter-flpkg
    :target: https://opensource.org/licenses/MIT
    :alt: License
-.. |Read the Docs| image:: https://img.shields.io/readthedocs/cookiecutter-hypermodern-python/latest.svg?label=Read%20the%20Docs
-   :target: https://cookiecutter-hypermodern-python.readthedocs.io/
-   :alt: Read the documentation at https://cookiecutter-hypermodern-python.readthedocs.io/
-.. |Tests| image:: https://github.com/cjolowicz/cookiecutter-hypermodern-python/workflows/Tests/badge.svg
-   :target: https://github.com/cjolowicz/cookiecutter-hypermodern-python/actions?workflow=Tests
-   :alt: Tests
-.. |Codecov| image:: https://codecov.io/gh/cjolowicz/cookiecutter-hypermodern-python-instance/branch/main/graph/badge.svg
-   :target: https://codecov.io/gh/cjolowicz/cookiecutter-hypermodern-python-instance
-   :alt: Codecov
+.. |Read the Docs| image:: https://img.shields.io/readthedocs/cookiecutter-flpkg/latest.svg?label=Read%20the%20Docs
+   :target: https://cookiecutter-flpkg.readthedocs.io/
+   :alt: Read the documentation at https://cookiecutter-flpkg.readthedocs.io/
 .. |pre-commit| image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
    :target: https://github.com/pre-commit/pre-commit
    :alt: pre-commit
