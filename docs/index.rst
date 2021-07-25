@@ -7,7 +7,7 @@ flpkg Cookiecutter
 
    Quickstart <quickstart>
    User Guide <guide>
-   Licence <licence>
+   License <license>
 
 .. rst-class:: badges
 
@@ -15,17 +15,17 @@ flpkg Cookiecutter
    :start-after: badges-begin
    :end-before: badges-end
 
-Cookiecutter_ template for a Python package
-based on the `Hypermodern Python`_ article series.
+.. include:: ../README.rst
+   :start-after: caption-begin
+   :end-before: caption-end
 
 
 Usage
 -----
 
-.. code:: console
-
-   $ cookiecutter gh:cjolowicz/cookiecutter-hypermodern-python \
-     --checkout="2021.4.15"
+.. include:: ../README.rst
+   :start-after: usage-begin
+   :end-before: usage-end
 
 
 Features
@@ -39,39 +39,13 @@ Features
 FAQ
 ---
 
-  *What is this project about?*
+   *What are the main features of this template?*
 
-The mission of this project is to
-enable current best practices
-through modern Python tooling.
+* Using a scaled down version of the `Hypermodern cookiecutter`_.
+* Accelerate development time of Python packages.
 
-  *What makes this project different from other Python templates?*
-
-This is a general-purpose template for Python libraries and applications.
-
-Our goals are:
-
-- Focus on simplicity and minimalism
-- Promote code quality through automation
-- Provide reliable and repeatable processes
-
-The project template is centered around the following tools:
-
-- Poetry_ for packaging and dependency management
-- Nox_ for automation of checks and other development tasks
-- `GitHub Actions`_ for continuous integration and delivery
-
-  *Why is this Python template called "hypermodern"?*
-
-Hypermodernism_ is a school of chess that dates back to more than a century ago.
-If this setup ever goes out of fashion,
-I can pretend it was my secret plan from the start.
-All images on the
-`associated blog <Hypermodern Python_>`__ show
-`past visions <Retrofuturism_>`__ of the future.
-
-.. _Hypermodernism: https://en.wikipedia.org/wiki/Hypermodernism_(chess)
-.. _Retrofuturism: https://en.wikipedia.org/wiki/Retrofuturism
+..
+   This is the list of external links
 
 .. include:: ../README.rst
    :start-after: references-begin

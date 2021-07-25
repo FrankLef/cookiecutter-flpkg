@@ -29,12 +29,13 @@ cookiecutter-flpkg
 
 .. badges-end
 
-
+.. caption-begin
 
 Cookiecutter_ template with the best practices in creating
 a Python package. Heavily inspired by the
-`Hypermodern cookie`_.
+`Hypermodern cookiecutter`_.
 
+.. caption-end
 
 ✨📚✨ `Read the full documentation`__
 
@@ -44,9 +45,13 @@ __ https://cookiecutter-flpkg.readthedocs.io/
 Usage
 =====
 
+..usage-begin
+
 .. code:: shell
 
    cookiecutter gh:FrankLef/cookiecutter-flpkg
+
+.. usage-end
 
 Resources and credits
 =====================
@@ -64,6 +69,8 @@ There is also a very instructive and useful article on how to practically
 create a package available here `Hypermodern article`_. I strongly
 recommend it if it is your first time creating a Python package.
 
+A survey of best practices can be found at `Jonas Kemper`_ which
+confirms the choice of features of the Hypermodern cookiecutter. 
 
 Features
 ========
@@ -72,68 +79,64 @@ Features
 
 The template supports Python 3.6, 3.7, 3.8, and 3.9.
 
-.. csv-table:: Template features
+.. csv-table::
    :header: "Package", "Description", "Link"
-   :widths: 15, 30, 15
+   :widths: 10, 40, 10
 
    "Poetry", "Packaging and dependency management", Poetry_
    "Nox", "Task automation", Nox_
-
-
-- Packaging and dependency management with Poetry_
-- Test automation with Nox_
-- Linting with pre-commit_ and Flake8_
-- Continuous integration with `GitHub Actions`_
-- Documentation with Sphinx_ and `Read the Docs`_
-- Automated uploads to PyPI_ and TestPyPI_
-- Automated release notes with `Release Drafter`_
-- Automated dependency updates with Dependabot_
-- Code formatting with Black_ and Prettier_
-- Testing with pytest_
-- Code coverage with Coverage.py_
-- Coverage reporting with Codecov_
-- Command-line interface with Click_
-- Static type-checking with mypy_
-- Runtime type-checking with Typeguard_
-- Security audit with Bandit_ and Safety_
-- Check documentation examples with xdoctest_
-- Generate API documentation with autodoc_ and napoleon_
-- Generate command-line reference with sphinx-click_
-- Manage project labels with `GitHub Labeler`_
+   "nox-poetry", "Drop-in replacement for the `nox.session` operator", `nox-poetry`_
+   "flake8","Linting", flake8_
+   "black","Code formatting", black_
+   "pre-commit", "Git hook scripts", `pre-commit`_
+   "GitHub actions", "Continuous integration", `github actions`_
+   "pytest", "Testing suite", pytest_
+   "coverage", "Code coverage", coverage_
+   "mypy", "Static type-checking", mypy_
+   "typeguard", "Runtime type-checking", typeguard_
+   "click", "Command-line interface", click_
+   "sphinx", "Documentation in rst format", sphinx_
+   "pygments", "Automatic code highliting", pygments_
+   "autodoc", "Documentation from docstrings in rst style", autodoc_
+   "napoleon", "Documentation from docstrings in NumPy or Google style", napoleon_
+   "sphinx-click", "Documentation for command-line interface", `sphinx-click`_
+   "darglint", "Check docstring matches the actual function/method", darglint_
+   "xdoctest", "Check documentation examples", xdoctest_
+   "safety", "Safety check installed dependencies for known vulnerabilities", safety_
+   "bandit", "Find common security issues in Python code", bandit_
 
 .. features-end
 
 .. references-begin
 
-.. _Bandit: https://github.com/PyCQA/bandit
-.. _Black: https://github.com/psf/black
-.. _Click: https://click.palletsprojects.com/
-.. _Codecov: https://codecov.io/
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _Coverage.py: https://coverage.readthedocs.io/
-.. _Dependabot: https://dependabot.com/
-.. _Flake8: http://flake8.pycqa.org
-.. _GitHub Actions: https://github.com/features/actions
+.. _Cookiecutter: https://cookiecutter.readthedocs.io/en/latest
 .. _Hypermodern article: https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769
 .. _Hypermodern cookiecutter: https://github.com/cjolowicz/cookiecutter-hypermodern-python
 .. _Hypermodern docs: https://cookiecutter-hypermodern-python.readthedocs.io/en/latest
-.. _Nox: https://nox.thea.codes/
-.. _Poetry: https://python-poetry.org/
-.. _Prettier: https://prettier.io/
-.. _PyPI: https://pypi.org/
-.. _Read the Docs: https://readthedocs.org/
-.. _Release Drafter: https://github.com/release-drafter/release-drafter
-.. _Safety: https://github.com/pyupio/safety
-.. _Sphinx: http://www.sphinx-doc.org/
-.. _TestPyPI: https://test.pypi.org/
-.. _Typeguard: https://github.com/agronholm/typeguard
+.. _Jonas Kemper: https://dev.to/jonasrk/understanding-best-practice-python-tooling-by-comparing-popular-project-templates-2dnj
+
+.. _Poetry: https://python-poetry.org
+.. _Poetry install: https://python-poetry.org/docs
+.. _Nox: https://nox.thea.codes/en/stable
+.. _nox-poetry: https://nox-poetry.readthedocs.io/en/latest
+.. _flake8: http://flake8.pycqa.org/en/latest
+.. _black: https://github.com/psf/black
+.. _prettier: https://prettier.io/
+.. _pre-commit: https://pre-commit.com
+.. _github actions: https://github.com/features/actions
+.. _pytest: https://docs.pytest.org/en/latest
+.. _coverage: https://coverage.readthedocs.io/en/coverage-5.5
+.. _mypy: http://mypy-lang.org
+.. _typeguard: https://github.com/agronholm/typeguard
+.. _click: https://click.palletsprojects.com/en/8.0.x
+.. _sphinx: https://www.sphinx-doc.org/en/master
+.. _pygments: https://pygments.org
 .. _autodoc: https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html
-.. _mypy: http://mypy-lang.org/
 .. _napoleon: https://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html
-.. _pre-commit: https://pre-commit.com/
-.. _pytest: https://docs.pytest.org/en/latest/
-.. _sphinx-click: https://sphinx-click.readthedocs.io/
+.. _sphinx-click: https://sphinx-click.readthedocs.io/en/latest
+.. _darglint: https://github.com/terrencepreilly/darglint
 .. _xdoctest: https://github.com/Erotemic/xdoctest
-.. _GitHub Labeler: https://github.com/marketplace/actions/github-labeler
+.. _bandit: https://github.com/PyCQA/bandit
+.. _safety: https://github.com/pyupio/safety
 
 .. references-end
