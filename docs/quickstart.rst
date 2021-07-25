@@ -10,6 +10,9 @@ Step 0: Requirements
 Install the requirements first.  Normally they **only need be installed once** in your
 default `python` environment.
 
+`pipx`, `pipenv` and `cookiecutter`
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Verify if `pipx`, `pipenv` and `cookiecutter` are installed
 
 .. code:: shell
@@ -22,11 +25,11 @@ You should received a message on the console that looks like This
 
 .. code:: console
 
-   # for pipx
+   # test pipx
    0.16.2.1
-   # for pipenv
+   # test pipenv
    pipenv, version 2020.11.15
-   # for cookiecutter
+   # test cookiecutter
    Cookiecutter 1.7.3 C:\ ...
 
 If `pipx`, `cookiecutter` and `pipenv` are not already installed,
@@ -39,6 +42,30 @@ install them as follows
    pipx install pipenv
    pipx install cookiecutter
 
+`Nox`, `Poetry` and `nox-poetry`
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+`Nox` and `nox-poetry`
+""""""""""""""""""""""
+
+Install Nox_ and `nox-poetry`_. When using `pipx` it is important to use `inject`
+to ensure that `nox-poetry` is in the same environment that `nox` is in.
+Some `nox session` (e.g. coverage) don't seem to work if you don't use the
+`inject` command.
+
+.. code:: shell
+
+   pipx install nox
+   # make sure to use inject with pipx
+   pipx inject nox nox-poetry
+
+`Poetry`
+"""""""""
+
+Install `Poetry` using the official instructions from `Poetry install`_. Many web sites offer
+outdated and/or misleading advices about `Poetry`.
+
+
 Step 1: Create the project
 ---------------------------
 
@@ -50,17 +77,8 @@ Here is a common way to do it, from github.
    :start-after: usage-begin
    :end-before: usage-end
 
-Now, make sure you work in a virtual environment with _Poetry, 
+Now, make sure you work in a virtual environment with Poetry_, 
 Nox_ and `nox-poetry`_. See the next step on that.
-
-
-
-..
-   This is the list of external links
-
-.. include:: ../README.rst
-   :start-after: references-begin
-   :end-before: references-end
 
 
 Step 2: Create a virtual environment
@@ -109,3 +127,10 @@ doesn't already exist, `pipenv` will create it.
 
    pipenv shell
 
+
+..
+   This is the list of external links
+
+.. include:: ../README.rst
+   :start-after: references-begin
+   :end-before: references-end
