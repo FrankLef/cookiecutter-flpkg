@@ -29,7 +29,7 @@ cookiecutter-flpkg
 
 .. badges-end
 
-|
+
 
 .. raw:: html
 
