@@ -1,0 +1,10 @@
+{
+  "project_name": "flpkg-todo",
+  "package_name": "{{ cookiecutter.project_name.replace('-', '_') }}",
+  "friendly_name": "{{ cookiecutter.project_name.replace('-', ' ').title() }}",
+  "author": "François Lefebvre",
+  "email": "flefebvre01@hotmail.com",
+  "github_user": "FrankLef",
+  "version": "0.1.0",
+  "license": ["MIT", "Apache-2.0", "GPL-3.0"]
+}
