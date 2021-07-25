@@ -33,7 +33,7 @@ cookiecutter-flpkg
 
 Cookiecutter_ template with the best practices in creating
 a Python package. Heavily inspired by the
-`Hypermodern cookiecutter`_HypermodernCookie.
+`Hypermodern cookie`_.
 
 
 ✨📚✨ `Read the full documentation`__
@@ -52,16 +52,16 @@ Resources and credits
 =====================
 
 Cookiecutter_ template for a Python package based on the
-`Hypermodern cookiecutter`_HypermodernCookie. 
+`Hypermodern cookiecutter`_. 
 The features are a strict subset, a scaled down version 
 of Hypermodern cookiecutter.
 
 That is, there is no feature that are not already included
 in the Hypermodern cookiecutter and, therefore the wonderful
-`Hypermodern documentation`_HypermodernDocs can and should be used.
+`Hypermodern docs`_ can and should be used.
 
 There is also a very instructive and useful article on how to practically
-create a package available `here`_HypermodernArticle. I strongly
+create a package available here `Hypermodern article`_. I strongly
 recommend it if it is your first time creating a Python package.
 
 Features
@@ -105,9 +105,9 @@ The template supports Python 3.6, 3.7, 3.8, and 3.9.
 .. _Dependabot: https://dependabot.com/
 .. _Flake8: http://flake8.pycqa.org
 .. _GitHub Actions: https://github.com/features/actions
-.. _HypermodernArticle: https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769
-.. _HypermodernCookie: https://github.com/cjolowicz/cookiecutter-hypermodern-python
-.. _HypermodernDocs: https://cookiecutter-hypermodern-python.readthedocs.io/en/latest
+.. _Hypermodern article: https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769
+.. _Hypermodern cookiecutter: https://github.com/cjolowicz/cookiecutter-hypermodern-python
+.. _Hypermodern docs: https://cookiecutter-hypermodern-python.readthedocs.io/en/latest
 .. _Nox: https://nox.thea.codes/
 .. _Poetry: https://python-poetry.org/
 .. _Prettier: https://prettier.io/
