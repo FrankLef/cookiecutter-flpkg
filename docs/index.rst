@@ -6,7 +6,8 @@ flpkg Cookiecutter
    :maxdepth: 1
 
    Quickstart <quickstart>
-   Guide <guide>
+   User Guide <guide>
+   Licence <licence>
 
 .. rst-class:: badges
 

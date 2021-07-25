@@ -31,17 +31,17 @@ cookiecutter-flpkg
 
 
 
-.. raw:: html
-
-   <p align="center"><img alt="logo" src="docs/_static/logo.png" width="50%" /></p>
-
-
 Cookiecutter_ template for a Python package based on the
-`Hypermodern Python`_ article series.
+`Hypermodern cookiecutter`HypermodernCookie_.
+The features are a strict subset, a scaled down version 
+of `Hypermodern cookiecutter`HypermodernCookie_.
+That is, there is no feature that are not already included
+in the Hypermodern cookiecutter and, therefore the wonderful
+`Hypermodern documentation`HypermodernDocs_ can and should be used.
 
 ✨📚✨ `Read the full documentation`__
 
-__ https://cookiecutter-hypermodern-python.readthedocs.io/
+__ https://cookiecutter-flpkg.readthedocs.io/
 
 
 Usage
@@ -49,13 +49,15 @@ Usage
 
 .. code:: console
 
-   $ cookiecutter gh:cjolowicz/cookiecutter-hypermodern-python --checkout=2021.4.15
+   cookiecutter gh:FrankLef/cookiecutter-flpkg
 
 
 Features
 ========
 
 .. features-begin
+
+The template supports Python 3.6, 3.7, 3.8, and 3.9.
 
 - Packaging and dependency management with Poetry_
 - Test automation with Nox_
@@ -78,8 +80,6 @@ Features
 - Generate command-line reference with sphinx-click_
 - Manage project labels with `GitHub Labeler`_
 
-The template supports Python 3.6, 3.7, 3.8, and 3.9.
-
 .. features-end
 
 .. references-begin
@@ -93,7 +93,9 @@ The template supports Python 3.6, 3.7, 3.8, and 3.9.
 .. _Dependabot: https://dependabot.com/
 .. _Flake8: http://flake8.pycqa.org
 .. _GitHub Actions: https://github.com/features/actions
-.. _Hypermodern Python: https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769
+.. _HypermodernArticle: https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769
+.. _HypermodernCookie: https://github.com/cjolowicz/cookiecutter-hypermodern-python
+.. _HypermodernDocs: https://cookiecutter-hypermodern-python.readthedocs.io/en/latest
 .. _Nox: https://nox.thea.codes/
 .. _Poetry: https://python-poetry.org/
 .. _Prettier: https://prettier.io/
