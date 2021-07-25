@@ -98,9 +98,9 @@ and so is *https://github.com/FrankLef/cookiecutter-flpkg.git* in
 .. code:: shell
 
    git branch -M main
-	git add -A
-	git -c user.name="FrankLef" -c user.email="<repo_url>" commit -m "Initial commit"
-	git push -u origin main
+   git add -A
+   git -c user.name="FrankLef" -c user.email="<repo_url>" commit -m "Initial commit"
+   git push -u origin main
 
 To start coding in your new project, open the shell with `pipenv`, if an environment
 doesn't already exist, `pipenv` will create it.
