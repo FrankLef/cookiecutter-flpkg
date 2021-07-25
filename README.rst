@@ -31,13 +31,10 @@ cookiecutter-flpkg
 
 
 
-Cookiecutter_ template for a Python package based on the
-`Hypermodern cookiecutter`HypermodernCookie_.
-The features are a strict subset, a scaled down version 
-of `Hypermodern cookiecutter`HypermodernCookie_.
-That is, there is no feature that are not already included
-in the Hypermodern cookiecutter and, therefore the wonderful
-`Hypermodern documentation`HypermodernDocs_ can and should be used.
+Cookiecutter_ template with the best practices in creating
+a Python package. Heavily inspired by the
+`Hypermodern cookiecutter`_HypermodernCookie.
+
 
 ✨📚✨ `Read the full documentation`__
 
@@ -51,6 +48,21 @@ Usage
 
    cookiecutter gh:FrankLef/cookiecutter-flpkg
 
+Resources and credits
+=====================
+
+Cookiecutter_ template for a Python package based on the
+`Hypermodern cookiecutter`_HypermodernCookie. 
+The features are a strict subset, a scaled down version 
+of Hypermodern cookiecutter.
+
+That is, there is no feature that are not already included
+in the Hypermodern cookiecutter and, therefore the wonderful
+`Hypermodern documentation`_HypermodernDocs can and should be used.
+
+There is also a very instructive and useful article on how to practically
+create a package available `here`_HypermodernArticle. I strongly
+recommend it if it is your first time creating a Python package.
 
 Features
 ========
