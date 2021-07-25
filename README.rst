@@ -1,4 +1,3 @@
-===============================
 cookiecutter-flpkg
 ===============================
 
@@ -39,7 +38,7 @@ __ https://cookiecutter-flpkg.readthedocs.io/
 
 
 Usage
-=====
+-----
 
 .. usage-begin
 
@@ -55,12 +54,34 @@ then create the package. A folder called `project-pkg` will be created in `..\\p
 
 .. code:: shell
 
-   cookiecutter gh:FrankLef/cookiecutter-flpkg
+   pipx run cookiecutter https://github.com/FrankLef/cookiecutter-flpkg.git
+
+
+`pipx` will ask you if you want to reinstall `cookiecutter`, say **no**. It will then
+ask if you want to reuse `cookiecutter` say **yes**.
+
+You will then be asked for these inputs
+
+.. csv-table::
+   :header: "Variable", "Description", "Example"
+   :widths: 10, 40, 10
+
+   "project_name", "Name on Github and PyPI", "plain-pkg"
+   "package_name", "Import name of the package", "plain_pkg"
+   "friendly_name", "Friendly name", "A plain Package"
+   "author", "Primary author", "François Lefebvre"
+   "email", "email of author", "flefebvre01@hotmail.com"
+   "github_user", "GitHub username of author", "FrankLef"
+   "version", "Initial package version", "0.1.0"
+   "license", "Opensource license", "MIT license"
+
+and that is it.  The project is created.
 
 .. usage-end
 
+
 Resources and credits
-=====================
+---------------------
 
 Cookiecutter_ template for a Python package based on the
 `Hypermodern cookiecutter`_. 
@@ -79,7 +100,7 @@ A survey of best practices can be found at `Jonas Kemper`_ which
 confirms the choice of features of the Hypermodern cookiecutter. 
 
 Features
-========
+--------
 
 .. features-begin
 
@@ -120,6 +141,8 @@ The template supports Python 3.6, 3.7, 3.8 and 3.9.
 .. _Hypermodern cookiecutter: https://github.com/cjolowicz/cookiecutter-hypermodern-python
 .. _Hypermodern docs: https://cookiecutter-hypermodern-python.readthedocs.io/en/latest
 .. _Jonas Kemper: https://dev.to/jonasrk/understanding-best-practice-python-tooling-by-comparing-popular-project-templates-2dnj
+.. _pipenv: https://realpython.com/pipenv-guide
+.. _pipx: https://github.com/pypa/pipx
 
 .. _Poetry: https://python-poetry.org
 .. _Poetry install: https://python-poetry.org/docs

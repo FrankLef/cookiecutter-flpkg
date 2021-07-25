@@ -23,8 +23,6 @@ flpkg Cookiecutter
 Usage
 -----
 
-Import from readme
-
 .. include:: ../README.rst
    :start-after: usage-begin
    :end-before: usage-end
