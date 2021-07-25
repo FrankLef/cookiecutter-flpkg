@@ -72,6 +72,14 @@ Features
 
 The template supports Python 3.6, 3.7, 3.8, and 3.9.
 
+.. csv-table:: Template features
+   :header: "Package", "Description", "Link"
+   :widths: 15, 30, 15
+
+   "Poetry", "Packaging and dependency management", Poetry_
+   "Nox", "Task automation", Nox_
+
+
 - Packaging and dependency management with Poetry_
 - Test automation with Nox_
 - Linting with pre-commit_ and Flake8_
