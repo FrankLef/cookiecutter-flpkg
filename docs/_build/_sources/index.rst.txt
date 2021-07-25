@@ -44,6 +44,9 @@ FAQ
 * Using a scaled down version of the `Hypermodern cookiecutter`_.
 * Accelerate development time of Python packages.
 
+..
+   This is the list of external links
+
 .. include:: ../README.rst
    :start-after: references-begin
    :end-before: references-end

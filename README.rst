@@ -45,7 +45,17 @@ __ https://cookiecutter-flpkg.readthedocs.io/
 Usage
 =====
 
-..usage-begin
+.. usage-begin
+
+Change to the parent location where you want the project to be created.
+For example if your project is called `project-pkg` in the `parent` folder,
+then move to `parent` first
+
+.. code:: shell
+
+   cd ../parent
+
+then create the package. A folder called `project-pkg` will be created in `..\\parent`.
 
 .. code:: shell
 
@@ -77,7 +87,7 @@ Features
 
 .. features-begin
 
-The template supports Python 3.6, 3.7, 3.8, and 3.9.
+The template supports Python 3.6, 3.7, 3.8 and 3.9.
 
 .. csv-table::
    :header: "Package", "Description", "Link"
