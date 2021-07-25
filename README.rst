@@ -5,7 +5,6 @@ cookiecutter-flpkg
 .. badges-begin
 
 | |Status| |CalVer| |License|
-| |Read the Docs|
 | |pre-commit| |Black|
 
 .. |Status| image:: https://badgen.net/badge/status/alpha/d8624d

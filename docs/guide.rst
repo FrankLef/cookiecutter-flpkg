@@ -1,5 +1,4 @@
-==================
-Cookiecutter-flpkg
+Guide
 ==================
 
 
@@ -9,9 +8,6 @@ Make sure you are in the project directory.
 Usage
 =====
 
-some text
-
-.. code:: shell
-
-   cookiecutter gh:cjolowicz/cookiecutter-hypermodern-python --checkout=2021.4.15
-
+.. include:: ../README.rst
+   :start-after: usage-begin
+   :end-before: usage-end

@@ -23,6 +23,8 @@ flpkg Cookiecutter
 Usage
 -----
 
+Import from readme
+
 .. include:: ../README.rst
    :start-after: usage-begin
    :end-before: usage-end
@@ -36,13 +38,8 @@ Features
    :end-before: features-end
 
 
-FAQ
----
 
-   *What are the main features of this template?*
 
-* Using a scaled down version of the `Hypermodern cookiecutter`_.
-* Accelerate development time of Python packages.
 
 ..
    This is the list of external links

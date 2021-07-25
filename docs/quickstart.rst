@@ -1,13 +1,14 @@
-==================
-Cookiecutter-flpkg
+Quickstart
 ==================
 
 
 Create a virtual environment using `pipenv`. See [pipenv guide][pyenv] for details.
-Make sure you are in the project directory.::
+Make sure you are in the project directory.
 
-.. code-block:: console
+Usage
+=====
 
-    cd
-    pipenv shell
+.. include:: ../README.rst
+   :start-after: usage-begin
+   :end-before: usage-end
 
