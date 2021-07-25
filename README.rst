@@ -44,7 +44,7 @@ __ https://cookiecutter-flpkg.readthedocs.io/
 Usage
 =====
 
-.. code:: console
+.. code:: shell
 
    cookiecutter gh:FrankLef/cookiecutter-flpkg
 
@@ -63,6 +63,7 @@ in the Hypermodern cookiecutter and, therefore the wonderful
 There is also a very instructive and useful article on how to practically
 create a package available here `Hypermodern article`_. I strongly
 recommend it if it is your first time creating a Python package.
+
 
 Features
 ========
