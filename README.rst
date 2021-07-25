@@ -17,9 +17,6 @@ cookiecutter-flpkg
 .. |License| image:: https://img.shields.io/github/license/FrankLef/cookiecutter-flpkg
    :target: https://opensource.org/licenses/MIT
    :alt: License
-.. |Read the Docs| image:: https://img.shields.io/readthedocs/cookiecutter-flpkg/latest.svg?label=Read%20the%20Docs
-   :target: https://cookiecutter-flpkg.readthedocs.io/
-   :alt: Read the documentation at https://cookiecutter-flpkg.readthedocs.io/
 .. |pre-commit| image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
    :target: https://github.com/pre-commit/pre-commit
    :alt: pre-commit
