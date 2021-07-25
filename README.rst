@@ -27,12 +27,12 @@ cookiecutter-flpkg
 .. caption-begin
 
 Cookiecutter_ template with the best practices in creating
-a Python package. Heavily inspired by the
+a Python package. It is a scaled down version of
 `Hypermodern cookiecutter`_.
 
 .. caption-end
 
-✨📚✨ `Read the full documentation`__
+✨📚✨ Read the `full documentation`_ to aavoid error. Particularly the **Quickstart**.
 
 __ https://cookiecutter-flpkg.readthedocs.io/
 
@@ -143,6 +143,7 @@ The template supports Python 3.6, 3.7, 3.8 and 3.9.
 .. _Jonas Kemper: https://dev.to/jonasrk/understanding-best-practice-python-tooling-by-comparing-popular-project-templates-2dnj
 .. _pipenv: https://realpython.com/pipenv-guide
 .. _pipx: https://github.com/pypa/pipx
+.. _full documentation: https://cookiecutter-flpkg.readthedocs.io/latest
 
 .. _Poetry: https://python-poetry.org
 .. _Poetry install: https://python-poetry.org/docs
