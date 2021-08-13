@@ -106,8 +106,8 @@ In spite of what was just mentioned, the following marginal modifications were m
 They are entirely optional and don't really change what was mentioned previously.
 
 Sphinx-copybutton
-   Sphinx-copybutton with ``pip install sphinx-copybutton`` and the ``conf.py`` file
-   modified accordingly.
+   Sphinx-copybutton with ``pip install sphinx-copybutton``. The ``conf.py`` and
+   ``requirements.txt`` files were modified accordingly.
 
 
 Features
