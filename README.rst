@@ -32,7 +32,7 @@ a Python package. It is a scaled down version of
 
 .. caption-end
 
-✨📚✨ Read the `full documentation`_ to aavoid error. Particularly the **Quickstart**.
+✨📚✨ Read the `full documentation`_ to avoid error. Particularly the **Quickstart**.
 
 __ https://cookiecutter-flpkg.readthedocs.io/
 
@@ -97,10 +97,21 @@ create a package available here `Hypermodern article`_. I strongly
 recommend it if it is your first time creating a Python package.
 
 A survey of best practices can be found at `Jonas Kemper`_ which
-confirms the choice of features of the Hypermodern cookiecutter. 
+confirms the choice of features of the Hypermodern cookiecutter.
+
+Modifications
+^^^^^^^^^^^^^^
+
+In spite of what was just mentioned, the following marginal modifications were made.
+They are entirely optional and don't really change what was mentioned previously.
+
+Sphinx-copybutton
+   Sphinx-copybutton with ``pip install sphinx-copybutton`` and the ``conf.py`` file
+   modified accordingly.
+
 
 Features
---------
+--------_
 
 .. features-begin
 

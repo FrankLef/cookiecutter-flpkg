@@ -5,8 +5,10 @@ from datetime import datetime
 project = "flpkg Cookiecutter"
 author = "François Lefebvre"
 copyright = f"{datetime.now().year}, {author}"
-extensions = ["sphinx.ext.intersphinx"]
-intersphinx_mapping = {"mypy": ("https://mypy.readthedocs.io/en/stable/", None)}
+extensions = ["sphinx.ext.intersphinx",
+              "sphinx-copybutton"]
+intersphinx_mapping = {
+    "mypy": ("https://mypy.readthedocs.io/en/stable/", None)}
 language = "en"
 html_static_path = ["_static"]
 html_theme = "alabaster"
