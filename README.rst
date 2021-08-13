@@ -73,7 +73,7 @@ You will then be asked for these inputs
    "email", "email of author", "flefebvre01@hotmail.com"
    "github_user", "GitHub username of author", "FrankLef"
    "version", "Initial package version", "0.1.0"
-   "license", "Opensource license", "MIT license"
+   "license", "Open source license", "MIT license"
 
 and that is it.  The project is created.
 
