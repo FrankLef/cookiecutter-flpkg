@@ -111,7 +111,7 @@ Sphinx-copybutton
 
 
 Features
---------_
+---------
 
 .. features-begin
 
