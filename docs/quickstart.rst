@@ -25,11 +25,11 @@ You should received a message on the console that looks like This
 
 .. code:: console
 
-   # test pipx
+   # pipx --version
    0.16.2.1
-   # test pipenv
+   # pipenv --version
    pipenv, version 2020.11.15
-   # test cookiecutter
+   # cookiecutter --version
    Cookiecutter 1.7.3 C:\ ...
 
 If `pipx`, `cookiecutter` and `pipenv` are not already installed,
