@@ -13,7 +13,7 @@ default `python` environment.
 `pipx`, `pipenv` and `cookiecutter`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Verify if `pipx`, `pipenv` and `cookiecutter` are installed
+Verify if `pipx`, `pipenv` and `cookiecutter` are installed.
 
 .. code:: shell
 
@@ -30,7 +30,7 @@ You should received a message on the console that looks like This
    # pipenv --version
    pipenv, version 2020.11.15
    # cookiecutter --version
-   Cookiecutter 1.7.3 C:\ ...
+   Cookiecutter from 1.7.3 C:\ ...
 
 If `pipx`, `cookiecutter` and `pipenv` are not already installed,
 install them as follows
@@ -47,6 +47,21 @@ install them as follows
 
 `Nox` and `nox-poetry`
 """"""""""""""""""""""
+
+Verify if `nox` is installed.
+
+.. code:: shell
+
+   nox --version
+   
+
+You should received a message on the console that looks like This
+
+.. code:: console
+
+   # nox --version
+   2021.6.6
+
 
 Install Nox_ and `nox-poetry`_. When using `pipx` it is important to use `inject`
 to ensure that `nox-poetry` is in the same environment that `nox` is in.
